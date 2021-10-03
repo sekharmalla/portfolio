@@ -21,7 +21,7 @@ You can click the Preview link to take a look at your changes.
 
 |Github Streak||
 |:-----------:|:-----:|
-|[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=sekharmalla&theme=gotham)](https://git.io/streak-stats)|
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=sekharmalla&theme=monokai-metallian&date_format=M%20j%5B%2C%20Y%5D&background=1F222E&sideLabels=1C83B9&border=5A2E88&ring=EA3E69&fire=EA3E69&dates=2CBFB1&currStreakNum=FD8F23&sideNums=FD8F23&stroke=FFFFFF)](https://git.io/streak-stats)|
 
 <p align="center"> 
   Visitor Count<br>
