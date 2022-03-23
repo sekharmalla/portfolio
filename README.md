@@ -7,7 +7,7 @@ You can click the Preview link to take a look at your changes.
 
 |Follow / Connect With Me|
 |----|
-|<a href="https://twitter.com/OfficialArtistC"><img align="left" alt="Chandra - Twitter" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/twitter.svg" /></a></a><a href="https://in.linkedin.com/in/chandramalla/"><img align="left" alt="chandra's LinkedIn" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/linkedin.svg" /></a><a href="mailto:sekharmalla.vfx@gmail.com"><img align="left" alt="Chandra's  Email" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/gmail.svg" /></a><a href="https://powerusers.microsoft.com/t5/user/viewprofilepage/user-id/153132"><img align="left" alt="chandra's LinkedIn" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/microsoft.svg" /></a>|
+|<a href="https://twitter.com/OfficialArtistC"><img align="left" alt="Chandra - Twitter" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/twitter.svg" /></a></a><a href="https://in.linkedin.com/in/chandramalla/"><img align="left" alt="chandra's LinkedIn" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/linkedin.svg" /></a><a href="mailto:chandra.malla@msftcommunity.com"><img align="left" alt="Chandra's  Email" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/gmail.svg" /></a><a href="https://powerusers.microsoft.com/t5/user/viewprofilepage/user-id/153132"><img align="left" alt="chandra's LinkedIn" width="30px" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/microsoft.svg" /></a>|
 
 ### My Github Statistics
 
