@@ -147,8 +147,10 @@ Table of Contents
     ```
     concat('Hello', 'world')
     ```
+  
     ![image](https://user-images.githubusercontent.com/43902003/159712590-941e34b4-0e8a-416f-8114-18cd01d3a38b.png)
-
+     |:--:|
+     | <b>Fig.1 - concat function usage</b>|
     * App Engine - 28 frontend instance hours per day, 9 backend instance hours per day
     * Cloud Firestore - 1GB storage, 50,000 reads, 20,000 writes, 20,000 deletes per day
     * Compute Engine - 1 non-preemptible e2-micro, 30GB HDD, 5GB snapshot storage (restricted to certain regions), 1 GB network egress from North America to all region destinations (excluding China and Australia) per month
