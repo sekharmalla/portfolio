@@ -1,4 +1,4 @@
-# free-for.dev
+# free-for-#PowerAddicts
 
 Developers and Open Source authors now have a massive amount of services offering free tiers, but it can be hard to find them all to make informed decisions.
 
@@ -143,6 +143,10 @@ Table of Contents
 ## concat
 
   * [Google Cloud Platform](https://cloud.google.com)
+  
+    ```
+    concat('<text1>', '<text2>', ...)
+    ```
     * App Engine - 28 frontend instance hours per day, 9 backend instance hours per day
     * Cloud Firestore - 1GB storage, 50,000 reads, 20,000 writes, 20,000 deletes per day
     * Compute Engine - 1 non-preemptible e2-micro, 30GB HDD, 5GB snapshot storage (restricted to certain regions), 1 GB network egress from North America to all region destinations (excluding China and Australia) per month
