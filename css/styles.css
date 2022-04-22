@@ -1357,6 +1357,17 @@ progress {
         flex: 0 0 auto;
         width: 24.999%;
     }
+    .charty {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        align-content: center;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
     .col-lg-5 {
         flex: 0 0 auto;
         width: 38.666667%;

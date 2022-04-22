@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body id="page-top">
@@ -144,38 +145,11 @@
         <!-- About Section Content-->
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 ms-auto">
-                    <p class="lead">
-                        <ul style="list-style: none;line-height: 2;margin-left: 170px">
-                            <strong><li>PYTHON</li>
-                         <li>JS</li>
-                          <li>React</li>
-                           <li>C#</li>
-                           <li>DATA CLEANING</li>
-                           <li>DATA MODELING</li>
-                           <li>VISUALIZATION</li>
-                           <li>AUTOMATION</li>
-                           <li>PowerApps</li>
-                           <li>POWER BI</li>
-                    </strong>
-                        </ul>
-                    </p>
-                </div>
-                <div class="col-lg-4 me-auto">
-                    <p class="lead">
-                        <ul style="list-style: none;line-height: 2;margin-right: 100px;text-align: left;">
-                            <strong>
-                        <li>WEB3</li>
-                        <li>STREAMLIT</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
 
+                <div class="charty">
+                    <canvas id="myChart" width="10" height="10"></canvas>
+                    <canvas id="myChart1" width="10" height="10"></canvas>
 
-
-                    </strong>
-
-                        </ul>
-                    </p>
                 </div>
             </div>
             <!-- About Section Button-->
@@ -495,6 +469,118 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart1').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['PowerApps', 'Power Automate', 'Power BI', 'Dataverse', 'SQL', 'Python', 'R'],
+                datasets: [{
+                    label: '# of Skills',
+                    data: [100, 95, 80, 50, 30, 45, 22],
+                    backgroundColor: [
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+
+                indexAxis: 'y',
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        enabled: false
+                    },
+                },
+                scales: {
+                    x: {
+                        stacked: true,
+                        grid: {
+                            display: false
+                        }
+                    },
+                    y: {
+                        stacked: true,
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        const ctx1 = document.getElementById('myChart').getContext('2d');
+        const myChart1 = new Chart(ctx1, {
+            type: 'bar',
+            data: {
+                labels: ['DATA MODELING', 'DATA CLEANING', 'HTML', 'CSS', 'Javascript', 'Electron.js', 'C#'],
+                datasets: [{
+                    label: '# of Skills',
+                    data: [75, 95, 100, 50, 80, 45, 30],
+                    backgroundColor: [
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                tooltips: {
+                    enabled: false
+                },
+                indexAxis: 'y',
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    x: {
+                        stacked: true,
+                        grid: {
+                            display: false
+                        }
+                    },
+                    y: {
+                        stacked: true,
+                        grid: {
+                            display: false
+                        }
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
