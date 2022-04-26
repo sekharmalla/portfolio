@@ -654,6 +654,8 @@ progress {
 .img-fluid {
     max-width: 100%;
     height: auto;
+    border-style: solid;
+    border-color: rgb(54, 148, 218);
 }
 
 .img-thumbnail {
