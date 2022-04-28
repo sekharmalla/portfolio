@@ -141,6 +141,13 @@ h2,
     font-size: calc(1.325rem + 0.9vw);
 }
 
+h2 {
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient(right, #6521b1, #eb4426);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media (min-width: 1200px) {
     h2,
     .h2 {
