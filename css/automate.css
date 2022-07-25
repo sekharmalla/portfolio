@@ -1,0 +1,91 @@
+@media only screen and (max-width: 980px) {  
+    html, body {
+      display: none;
+     }
+    }
+
+body {
+    background-color: #1C1F24;
+  }
+
+    .head {
+        padding: 42px 0 0 0 ;
+        color: #fffffe;
+    }
+    .head h1 {
+        /* padding: 61px 0px 0px 0px; */
+        font-size: 56px;
+        font-family: 'Alliance No.1', sans-serif;
+        font-feature-settings: 'ss01' 0, 'salt' 0;
+        text-align: center;
+        color: #fffffe;
+    }
+    .head p {
+        line-height: 28px;
+        font-size: 20px;
+        font-family: 'Alliance No.1', sans-serif;
+        text-align: center;
+        color: #fffffe;
+    }
+    .desc {
+        width: 756px;
+        height: 56px;
+        padding: 10px 313px 0px 313px; /*top, right, bottom, left */
+        font-size: 20px;
+        font-family: 'Alliance No.1', sans-serif;
+        text-align: center;
+        color: #fffffe;
+    }
+    .desc p {
+        line-height: 28px;
+        font-size: 20px;
+        font-family: 'Alliance No.1', sans-serif;
+        text-align: center;
+        color: #8B949E;
+    }
+    .container {
+        display: block;
+        float: left;
+        width: 562px;
+        height: 256px;
+        margin:  6.8% 49px 0px 49px;
+        background-color: #26292E;
+        font-feature-settings: 'ss01' 0, 'salt' 0;
+        border-style: solid;
+        /* border-color: black; */
+        border-width: 1px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 1px #16181C;
+    }
+    .container p {
+        padding: 95px 85px 122px 85px;
+        /* font-size: 28px; */
+        font-family: 'Alliance No.1', sans-serif;
+        text-align: center;
+        color: #fffffe;
+        line-height: 28px;
+    }
+    .arrow {
+        display: inline-block;
+        margin: 15% auto;
+    }
+    .example {
+        display: block;
+        float: right;
+        width: 562px;
+        height: 256px;
+        margin:  6.8% 49px 0px 0px;
+        background-color: #26292E;
+        font-feature-settings: 'ss01' 0, 'salt' 0;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 1px #16181C;
+    }
+    .ex-child {
+        padding: 12 0 0 70px;
+        max-width:100%;  
+    }
+    .code{
+        color: goldenrod;
+    }
