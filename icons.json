@@ -1,13 +1,13 @@
 [
-    { "name": "AI Builder", "url": "PowerPlatformIcons/AIBuilder_scalable.svg" },
-    { "name": "Dataverse", "url": "PowerPlatformIcons/Dataverse_scalable.svg" },
-    { "name": "Power Apps", "url": "PowerPlatformIcons/PowerApps_scalable.svg" },
-    { "name": "Power Automate", "url": "PowerPlatformIcons/PowerAutomate_scalable.svg" },
-    { "name": "Power BI", "url": "PowerPlatformIcons/PowerBI_scalable.svg" },
-    { "name": "Power Fx", "url": "PowerPlatformIcons/PowerFx_scalable.svg" },
-    { "name": "Power Pages", "url": "PowerPlatformIcons/PowerPages_scalable.svg" },
-    { "name": "Power Platform", "url": "PowerPlatformIcons/PowerPlatform_scalable.svg" },
-    { "name": "Power VirtualAgents", "url": "PowerPlatformIcons/PowerVirtualAgents_scalable.svg" }
+    { "name": "AI Builder", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/AIBuilder_scalable.svg" },
+    { "name": "Dataverse", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/Dataverse_scalable.svg" },
+    { "name": "Power Apps", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/PowerApps_scalable.svg" },
+    { "name": "Power Automate", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/PowerAutomate_scalable.svg" },
+    { "name": "Power BI", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/PowerBI_scalable.svg" },
+    { "name": "Power Fx", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/PowerFx_scalable.svg" },
+    { "name": "Power Pages", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/PowerPages_scalable.svg" },
+    { "name": "Power Platform", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/PowerPlatform_scalable.svg" },
+    { "name": "Power VirtualAgents", "url": "https://applicationinsightsb5b6.blob.core.windows.net/powerplatformicons/PowerVirtualAgents_scalable.svg" }
   ]
   
   
